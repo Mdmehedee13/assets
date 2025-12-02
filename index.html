@@ -23,7 +23,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
      <script>
        tailwind.config = {
           theme: {
@@ -44,7 +46,84 @@
 
 
 </head>                                                                                                                                                                                                                                                                                                                                                                        
-<body class="font">
+<body class="font px-20">
+
+  <!-- header section -->
+  <header>
+  
+   <nav class="mb-12">
+    <div class="navbar bg-base-100 ">
+  <div class="lg:navbar-start navbar-end ">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+         <li><a>Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+    </div>
+   
+    <a class="btn btn-ghost text-xl">Rinterio</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+       <li><a>Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a href="">Contact us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn bg-assets-primary border rounded-3xl px-10 ">Book Consult</a>
+  </div>
+</div>
+   </nav>
+
+   <!-- banner section -->
+   <section class="space-y-12 text-center">
+
+    <div class="flex justify-center">
+      <img src="assets/banner.png" alt="">
+    </div>
+
+    <div >
+      <h1 class="text-6xl font-bold">
+        A barn house of this design has a <br> striking appearance
+      </h1>
+
+     
+    </div>
+
+    <div>
+       <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+    </div>
+
+    <div>
+      <a class="btn bg-assets-secondary border rounded-3xl px-10">View Details</a>
+    </div>
+
+   </section>
+  </header>
     
+
+  <!-- main section -->
+  <main>
+
+  </main>
+
+  
+  <!-- footer section -->
+  <footer>
+    
+  </footer>
+
+
 </body>
 </html>
