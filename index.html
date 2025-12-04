@@ -6,6 +6,10 @@
     <title>Assets</title>
 
 
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,15 +50,38 @@
 
 
 </head>                                                                                                                                                                                                                                                                                                                                                                        
-<body class="font px-20">
+<body class="font ">
 
   <!-- header section -->
-  <header>
+  <header class="mb-12 px-20">
   
    <nav class="mb-12">
     <div class="navbar bg-base-100 ">
   <div class="lg:navbar-start navbar-end ">
-    <div class="dropdown">
+   
+   
+    <a class="btn btn-ghost text-xl">
+      <h3  >Rinterio</h3>
+    </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+       <li><a>Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a href="">Contact us</a></li>
+    </ul>
+  </div>
+ 
+  <div class="navbar-end">
+
+     
+
+    <a class="hidden lg:block text-center  btn bg-assets-primary border rounded-3xl px-10 ">Book Consult</a>
+  </div>
+
+  <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
       </div>
@@ -68,21 +95,6 @@
         <li><a href="">Contact us</a></li>
       </ul>
     </div>
-   
-    <a class="btn btn-ghost text-xl">Rinterio</a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-       <li><a>Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Blogs</a></li>
-        <li><a href="">Contact us</a></li>
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <a class="btn bg-assets-primary border rounded-3xl px-10 ">Book Consult</a>
-  </div>
 </div>
    </nav>
 
@@ -94,7 +106,7 @@
     </div>
 
     <div >
-      <h1 class="text-6xl font-bold">
+      <h1 class="lg:text-6xl text-4xl font-bold">
         A barn house of this design has a <br> striking appearance
       </h1>
 
@@ -115,6 +127,140 @@
 
   <!-- main section -->
   <main>
+
+
+    <!-- liveable section -->
+    <section class="mx-auto bg-base-200">
+
+      <div class="hero bg-base-200 min-h-screen px-20 pb-12">
+  <div class="hero-content flex-col lg:flex-row-reverse ">
+   
+    <img
+      src="assets/Rectangle.png"
+      class="max-w-sm rounded-lg shadow-2xl h-[473px]"
+    />
+    
+    <div class="mt-24">
+      
+      <div class=" lg:absolute lg:-bottom-1/2 lg:left-4 "><img  src="assets/Vector.png" alt=""></div>
+
+
+     
+      <div class="-mt-24"> <button class="px-4 rounded-3xl bg-white btn btn-outline btn-primary border border-solid border-1">About Us</button></div>
+     
+      <h1 class=" text-5xl font-bold">We design thoughtful, <br> liveable spaces</h1>
+      <p class="py-6 ">
+         Our team blends creativity with functionality to craft spaces that feel elegant,
+  comfortable, and uniquely tailored to your lifestyle.  
+      </p>
+
+      <!-- cards  -->
+     <div class="flex flex-col gap-8">
+
+     
+      <!-- card 1 -->
+      <div class="flex flex-row gap-4 text-center bg-white px-8 py-6">
+
+        <div >
+          <img src="assets/commercial.png" alt="">
+        </div>
+
+        <div>
+          <h3 class="flex flex-start text-2xl">Commercial</h3>
+
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+        <div class="flex flex-row gap-4 text-center bg-white px-8 py-6">
+
+        <div >
+          <img src="assets/residential.png" alt="">
+        </div>
+
+        <div>
+          <h3 class="flex flex-start text-2xl">Residential</h3>
+
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+      </div>
+     </div>
+
+
+
+      
+    </div>
+  </div>
+
+    
+</div>
+
+
+
+ <!-- work process -->
+
+      <div class="flex items-center justify-center mb-10">
+        <a class="btn bg-white px-7 py-4 border border-solid rounded-2xl" href="">
+          <i class="fa-solid fa-arrow-right"></i>
+          <span>How we works</span>
+        </a>
+      </div>
+
+
+      <div class="flex flex-col gap-6 text-center pb-8 ">
+
+        <h3 class="font-bold text-4xl ">
+          Our Works Process
+        </h3>
+
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+
+      <!-- cards -->
+      <div class="grid lg:grid-cols-4 gap-10 px-20">
+
+        <div class="flex flex-col gap-4 p-6 bg-pink-300 rounded-2xl">
+          <img class="w-12" src="assets/concept.png" alt="">
+          <h3 class="text-2xl font-bold">Concept</h3>
+          <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+        </div>
+
+        <div class="flex flex-col gap-4 p-6 bg-yellow-200 rounded-2xl">
+          <img class="w-12" src="assets/flow-chart.png" alt="">
+          <h3 class="text-2xl font-bold">Design Process</h3>
+          <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+        </div>
+
+        <div class="flex flex-col gap-4 p-6 bg-green-200 rounded-2xl">
+          <img class="w-12" src="assets/vision.png" alt="">
+          <h3 class="text-2xl font-bold">Supervision</h3>
+          <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+        </div>
+
+        <div class="flex flex-col gap-4 p-6 bg-blue-200 rounded-2xl">
+          <img class="w-12" src="assets/budget-planning.png" alt="">
+          <h3 class="text-2xl font-bold">Budget Planning</h3>
+          <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+        </div>
+        
+
+      </div>
+
+
+
+       
+
+    </section>
+
+
+   
+
+
+
+
+
 
   </main>
 
